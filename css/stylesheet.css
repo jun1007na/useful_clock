@@ -1,0 +1,65 @@
+* {
+    color: #fff;
+    text-shadow: 3px 3px 10px #76b1f5, 1px 1px 1px #76b1f5, 1px -1px 1px #76b1f5, -1px 1px 1px #76b1f5, -1px -1px 1px #76b1f5;
+}
+
+body {
+    /*
+    background: url(../img/sky.jpg);
+@media screen and (min-width: 1920px) {
+    background-size: 100%;
+    -webkit-background-size: 100%;
+-moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+}
+*/
+}
+
+.clock {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#current_time {
+    font-size: 8em;
+}
+
+#current_day {
+    font-size: 3em;
+}
+
+.weather {
+    position: fixed;
+    top: 0px;
+    right: 20px;
+    font-size: 2em;
+}
+
+.weather-box {
+    width: 80px;
+    margin-top: 10px;
+    text-align: center;
+    float: left;
+}
+
+#weather-place {}
+
+#weather-place:hover {
+    color: #333;
+}
+
+.input-location {
+    display: none;
+    font-size: 12pt;
+    color: black;
+}
+
+#cloud {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
